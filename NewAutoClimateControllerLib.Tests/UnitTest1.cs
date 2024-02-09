@@ -4,7 +4,7 @@ using System;
 using AutoClimateControllerConsoleApp;
 using NewAutoClimateControllerLib.Tests;
 
-// Assuming TestHelpers class is defined somewhere accessible
+
 
 public class AutoClimateControllerTests
 {
