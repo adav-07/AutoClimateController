@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\IRegulatorLibrary\IRegulatorLibrary.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="IRegulatorLibrary">
       <HintPath>..\IRegulatorLibrary\bin\Debug\net8.0\IRegulatorLibrary.dll</HintPath>
     </Reference>
