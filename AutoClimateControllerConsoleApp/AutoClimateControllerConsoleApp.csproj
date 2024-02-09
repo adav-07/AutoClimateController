@@ -8,6 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AutoClimateControllerLib\AutoClimateControllerLib.csproj" />
+    <ProjectReference Include="..\OccupancySensorLib\OccupancySensorLib.csproj" />
+    <ProjectReference Include="..\RegulatorLibrary\RegulatorLibrary.csproj" />
+    <ProjectReference Include="..\TempCalculatorLib\TempCalculatorLib.csproj" />
+    <ProjectReference Include="..\TempSensorLibrary\TempSensorLibrary.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="AutoClimateControllerLib">
       <HintPath>..\AutoClimateControllerLib\bin\Debug\net8.0\AutoClimateControllerLib.dll</HintPath>
     </Reference>

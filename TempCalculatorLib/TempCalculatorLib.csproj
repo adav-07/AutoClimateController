@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ITempLib\ITempLib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="ITempLib">
       <HintPath>..\ITempLib\bin\Debug\net8.0\ITempLib.dll</HintPath>
     </Reference>

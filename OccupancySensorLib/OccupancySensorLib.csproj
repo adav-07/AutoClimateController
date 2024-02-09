@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ISensorLibrary\ISensorLibrary.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="ISensorLibrary">
       <HintPath>..\ISensorLibrary\bin\Debug\net8.0\ISensorLibrary.dll</HintPath>
     </Reference>
